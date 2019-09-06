@@ -20,6 +20,9 @@ function createTimeInEvent(empObj, dateStamp) {
         date: dateStamp.split(' ')[0]
     })
     return empObj;
+
+    // other method
+    // let [date, hour] = dateStamp.split(' ')
 }
 
 function createTimeOutEvent(empObj, dateStamp) {
